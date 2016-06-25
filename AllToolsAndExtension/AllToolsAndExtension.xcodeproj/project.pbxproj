@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EFB3B2EB1D1E550C0030CAB4 /* LHBMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB3B2EA1D1E550C0030CAB4 /* LHBMainViewController.m */; };
 		EFC5AC2E1D129F6000E40062 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC5AC2D1D129F6000E40062 /* main.m */; };
 		EFC5AC311D129F6000E40062 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC5AC301D129F6000E40062 /* AppDelegate.m */; };
 		EFC5AC391D129F6000E40062 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFC5AC381D129F6000E40062 /* Assets.xcassets */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EFB3B2E91D1E550C0030CAB4 /* LHBMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHBMainViewController.h; sourceTree = "<group>"; };
+		EFB3B2EA1D1E550C0030CAB4 /* LHBMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHBMainViewController.m; sourceTree = "<group>"; };
 		EFC5AC291D129F6000E40062 /* AllToolsAndExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllToolsAndExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFC5AC2D1D129F6000E40062 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EFC5AC2F1D129F6000E40062 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -101,6 +104,8 @@
 			children = (
 				EFC5AC2F1D129F6000E40062 /* AppDelegate.h */,
 				EFC5AC301D129F6000E40062 /* AppDelegate.m */,
+				EFB3B2E91D1E550C0030CAB4 /* LHBMainViewController.h */,
+				EFB3B2EA1D1E550C0030CAB4 /* LHBMainViewController.m */,
 				EFC5AC5F1D129F8A00E40062 /* UIColorExtension */,
 				EFC5AC381D129F6000E40062 /* Assets.xcassets */,
 				EFC5AC3A1D129F6000E40062 /* LaunchScreen.storyboard */,
@@ -207,6 +212,7 @@
 		EFC5AC211D129F6000E40062 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LHB;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = LHB;
 				TargetAttributes = {
@@ -274,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFB3B2EB1D1E550C0030CAB4 /* LHBMainViewController.m in Sources */,
 				EFC5AC311D129F6000E40062 /* AppDelegate.m in Sources */,
 				EFC5AC651D12A00C00E40062 /* UIColor+Extension.m in Sources */,
 				EFC5AC2E1D129F6000E40062 /* main.m in Sources */,
@@ -492,6 +499,7 @@
 				EFC5AC581D129F6000E40062 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFC5AC591D129F6000E40062 /* Build configuration list for PBXNativeTarget "AllToolsAndExtensionTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +508,7 @@
 				EFC5AC5B1D129F6000E40062 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFC5AC5C1D129F6000E40062 /* Build configuration list for PBXNativeTarget "AllToolsAndExtensionUITests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +517,7 @@
 				EFC5AC5E1D129F6000E40062 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
