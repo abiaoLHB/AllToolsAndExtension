@@ -1,4 +1,4 @@
-//
+﻿//
 //  AppDelegate.m
 //  AllToolsAndExtension
 //
@@ -22,6 +22,10 @@
     self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[LHBMainViewController alloc] init]];
     [self.window makeKeyAndVisible];
     
+
+/*测试王昌git*/
+
+
     return YES;
 }
 
